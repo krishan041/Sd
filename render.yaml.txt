@@ -4,17 +4,17 @@ services:
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/AshutoshGoswami24/text-leech-bot-for-render
+    repo: https://github.com/krishan041/text-leech-bot-for-render
     branch: main
     autoDeploy: false
     envVars:
       - key: BOT_TOKEN
         sync: false
       - key: API_ID
-        sync: false
+        sync: 23442913
       - key: API_HASH
-        sync: false
+        sync: 864a97e16b4ff7dc65ff5e2d1549b4a2
       - key: WEBHOOK
         sync: false
       - key: PORT
-        value: 8000  # Default port value, update if needed
+        value: 8080  # Default port value, update if needed
